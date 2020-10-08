@@ -4,20 +4,18 @@ from imapclient import IMAPClient
 import time
 import os
 
-import RPi.GPIO as GPIO
-
 DEBUG = True
 
-HOSTNAME = 'outlook.office365.com'
+HOSTNAME = 'hostname2replace'
 #Hostmane is the website to check to connect to.
 #For Outlook, it is outlook.office365.com
 #For Gmail, it is imap.gmail.com
-USERNAME = '[your email address here]'
-PASSWORD = '[your password hare]'
-MAILBOX = 'Inbox' #folder you want this script checking
+USERNAME = 'email2replace'
+PASSWORD = 'password2replace'
+MAILBOX = 'mailbox2replace' #folder you want this script checking
 
 NEWMAIL_OFFSET = 0   # my unread messages never goes to zero, yours might
-MAIL_CHECK_FREQ = 10 # check mail every 60 seconds
+MAIL_CHECK_FREQ = checkinterval2replace # check mail every 60 seconds
 
 def loop():
     server = IMAPClient(HOSTNAME, use_uid=True, ssl=True)
