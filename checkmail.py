@@ -33,7 +33,7 @@ def loop():
         print "You have", newmails, "new emails!"
 
     if newmails > NEWMAIL_OFFSET:
-        os.system('sudo -u pi zenity --info --text="You just received an email." --icon-name=emblem-mail --no-wrap')
+        os.system('sudo -u pi zenity --info --text="You just received an email." --icon-name=emblem-mail --title="Email Checker" --no-wrap')
 
 if __name__ == '__main__':
     print'Press Ctrl-C to quit.'
