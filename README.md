@@ -1,4 +1,5 @@
 # raspi-email-checker
+[![badge](https://github.com/Botspot/pi-apps/blob/master/icons/badge.png?raw=true)](https://github.com/Botspot/pi-apps)  
 Simple Python script that checks your mail and displays a notification if anything in your inbox is unread.
 ![screenshot of email notification](https://i.ibb.co/QP6w30y/2020-01-23-200849-1280x1024-scrot.png)  
 
